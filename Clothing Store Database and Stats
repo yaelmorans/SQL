@@ -1,0 +1,22 @@
+CREATE TABLE Clothing_Store (id INTEGER PRIMARY KEY, Item TEXT, Size INTEGER, Price REAL);
+
+
+INSERT INTO Clothing_Store VALUES (1, "Shirt", "small", 10.00);
+INSERT INTO Clothing_Store VALUES (2, "Shirt", "medium", 10.00);
+INSERT INTO Clothing_Store VALUES (3, "Shirt", "large", 10.00);
+INSERT INTO Clothing_Store VALUES (4, "Shorts", "small", 5.00);
+INSERT INTO Clothing_Store VALUES (5, "Shorts", "medium", 5.00);
+INSERT INTO Clothing_Store VALUES (6, "Shorts", "large", 5.00);
+INSERT INTO Clothing_Store VALUES (7, "Jeans", "small", 20.00);
+INSERT INTO Clothing_Store VALUES (8, "Jeans", "medium", 20.00);
+INSERT INTO Clothing_Store VALUES (9, "Jeans", "large", 20.00);
+INSERT INTO Clothing_Store VALUES (10, "Sweater", "small", 30.00);
+INSERT INTO Clothing_Store VALUES (11, "Sweater", "medium", 30.00);
+INSERT INTO Clothing_Store VALUES (12, "Sweater", "large", 30.00);
+INSERT INTO Clothing_Store VALUES (13, "Jacket", "small", 60.00);
+INSERT INTO Clothing_Store VALUES (14, "Jacket", "medium", 60.00);
+INSERT INTO Clothing_Store VALUES (15, "Jacket", "large", 60.00);
+
+Select * FROM Clothing_Store;
+Select * FROM Clothing_Store ORDER BY Price;
+Select * FROM Clothing_store Where Size = "large"
